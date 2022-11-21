@@ -13,3 +13,5 @@
 6. To avoid overfitting, I set the parameter changepoint range to 0.8 because it understands the last 20% of the data by it's own. Furthermore, to prevent overfitting, I set changepoint_prior_scale=0.3, n_changepoints=6 because smaller changepoints don't tend the model to overfit.
 
 7. There is possible overfitting due to seasonality. So I set the parameter seasonality_prior_scale=1.2
+
+8. Performed Cross Validation by taking 99.9% data for training and 0.01% for Validation
