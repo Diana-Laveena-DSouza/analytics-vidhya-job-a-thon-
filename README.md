@@ -6,7 +6,7 @@
 
 3. Feature Engineering involves the removal of outliers by treating them as missing values.
 
-4. To fill the missing values, since the Prophet model can learn the data pattern and has ability to fill the missing values.
+4. To fill the missing values, I have used Prophet model. Since the Prophet model can learn the data pattern and has ability to fill the missing values.
 
 5. I have chosen the FBPropet model because it offers a good baseline quickly, as you don't have to craft time features. Prophet makes it possible to forecast time series with almost no feature engineering and a good performance in record time.
 
